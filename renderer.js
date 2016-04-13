@@ -1,8 +1,8 @@
 'use strict';
 
-var fs = require('fs'),
-    is = require('is'),
-    path = require('path');
+const fs = require('fs'),
+      is = require('is'),
+      path = require('path');
 
 module.exports = function($opts) {
     var ext = $opts.extension,
